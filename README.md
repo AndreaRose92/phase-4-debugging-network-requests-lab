@@ -62,12 +62,12 @@ developing your own process.
 
 - Add a new toy when the toy form is submitted
 
-  - How I debugged:
+  - How I debugged: Found a 500 error in the network tab of the DevTools, saw that the #create route had Toys.create instead of Toy.create
 
 - Update the number of likes for a toy
 
-  - How I debugged:
+  - How I debugged: Specified that the only thing being updated was toy.likes, increased by 1
 
 - Donate a toy to Goodwill (and delete it from our database)
 
-  - How I debugged:
+  - How I debugged: added #destroy to the routes config file
